@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         } else {
             self.questionLabel.text = "Ahhh, not quite"
         }
-        let timer = NSTimer.scheduledTimerWithTimeInterval(2.0, target: self, selector: "generateQuestion", userInfo: nil, repeats: false)
+        let _ = NSTimer.scheduledTimerWithTimeInterval(2.0, target: self, selector: "generateQuestion", userInfo: nil, repeats: false)
     }
     
     
